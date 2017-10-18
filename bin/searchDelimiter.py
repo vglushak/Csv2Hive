@@ -3,7 +3,7 @@
 import sys
 
 # searchDelimiter v1.0
- 
+
 # Usage example :
 # $ python searchDelimiter.py "xx;xxx,xx;xxxx;xxx,xx" "yyyy,yyyy;yy;yy,yy" ""
 
@@ -24,7 +24,7 @@ def searchDelimiterWithHighestAndSameFrequency(string1, string2):
 # --------------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------------
-# Transforms the content of substrings if surrounded by a quote character 
+# Transforms the content of substrings if surrounded by a quote character
 # --------------------------------------------------------------------------------
 def transformSubstringsSurroundedByQuoteChar(aString, aChar):
 	outputString = ""
@@ -59,5 +59,4 @@ if delimiter == "\t":
 if delimiter == " ":
         delimiter = "\\s"
 
-print delimiter
-
+print(delimiter)
